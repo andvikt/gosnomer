@@ -1,0 +1,34 @@
+{
+  "name": "gosnomer",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "gosnomer",
+    "gosnomer-ru",
+    "license-plate-ru"
+  ],
+  "contributors": [
+    "Vivers <vivers.savva@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vivers0/gosnomer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vivers0/gosnomer/issues"
+  },
+  "homepage": "https://github.com/Vivers0/gosnomer",
+  "type": "commonjs",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.6.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "packageManager": "yarn@3.2.1",
+  "private": true
+}
