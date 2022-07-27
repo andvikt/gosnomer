@@ -5,7 +5,8 @@ Gosnomer - Node.js module for standardization of the car license plate of the Ru
 ## Installation
 
 ```sh-session
-npm i gosnomer
+$ npm i gosnomer
+$ yarn add gosnomer
 ```
 
 ## Docs

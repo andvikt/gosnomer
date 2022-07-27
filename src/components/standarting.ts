@@ -1,15 +1,15 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.StandartService = void 0;
 class StandartService {
-    getStandart(plate) {
+    public getStandart(plate: string) {
         return plate.replace(/\s/g, ' ').toUpperCase().replace(/[@#$%^"№()&.*;]/g, '');
     }
-    getUpper(plate) {
+
+    public getUpper(plate: string) {
         return plate.replace(/\s/g, '').toUpperCase().replace(/[@#$%^"№()&.*;]/g, '');
     }
-    getRegion(plate) {
+
+    public getRegion(plate: string) {
         return this.getStandart(plate).split(/[ ,]+/)[1];
     }
 }
-exports.StandartService = StandartService;
+
+export { StandartService };

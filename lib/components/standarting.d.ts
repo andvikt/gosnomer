@@ -1,2 +1,6 @@
-export declare const standarting: (plate: string) => string;
-export declare const getRegion: (plate: string) => string;
+declare class StandartService {
+    getStandart(plate: string): string;
+    getUpper(plate: string): string;
+    getRegion(plate: string): string;
+}
+export { StandartService };
